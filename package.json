@@ -1,10 +1,11 @@
 {
   "name": "@gitmoji/template",
-  "version": "4.2.3",
+  "private": true,
+  "version": "2.1.0",
   "description": "a template for gitmoji commit workflow",
   "main": "lib/index.js",
   "scripts": {
-    "release": "semantic-release --no-ci --no-verify && node ./scripts/build-version"
+    "release": "semantic-release --no-ci --no-verify"
   },
   "repository": {
     "type": "git",
@@ -16,14 +17,14 @@
     "url": "https://github.com/dangquangvn/demo-gitmoji-commit"
   },
   "publishConfig": {
-    "access": "public",
+    "access": "restricted",
     "registry": "https://registry.npmjs.org/"
   },
   "devDependencies": {
     "commitlint": "^12.0.1",
     "commitlint-config-gitmoji": "^2.2.10",
     "husky": "^4.3.8",
-    "semantic-release": "^18.0.1",
+    "semantic-release": "^19.0.5",
     "semantic-release-config-gitmoji": "^1.5.3"
   },
   "homepage": "https://github.com/dangquangvn/demo-gitmoji-commit"
