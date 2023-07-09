@@ -24,7 +24,7 @@
     "commitlint-config-gitmoji": "^2.2.10",
     "husky": "^4.3.8",
     "semantic-release": "^18.0.1",
-    "semantic-release-config-gitmoji": "^1.2.4"
+    "semantic-release-config-gitmoji": "^1.5.3"
   },
   "homepage": "https://github.com/dangquangvn/demo-gitmoji-commit"
 }
