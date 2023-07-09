@@ -4,16 +4,16 @@
   "description": "a template for gitmoji commit workflow",
   "main": "lib/index.js",
   "scripts": {
-    "release": "semantic-release"
+    "release": "semantic-release --no-ci --no-verify"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/arvinxx/gitmoji-commit-workflow-template.git"
+    "url": "git+https://github.com/dangquangvn/demo-gitmoji-commit"
   },
   "author": "Arvin Xu",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/arvinxx/gitmoji-commit-workflow-template/issues"
+    "url": "https://github.com/dangquangvn/demo-gitmoji-commit"
   },
   "publishConfig": {
     "access": "public",
@@ -26,5 +26,5 @@
     "semantic-release": "^18.0.1",
     "semantic-release-config-gitmoji": "^1.2.4"
   },
-  "homepage": "https://github.com/arvinxx/gitmoji-commit-workflow-template#readme"
+  "homepage": "https://github.com/dangquangvn/demo-gitmoji-commit"
 }
