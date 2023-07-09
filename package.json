@@ -4,7 +4,7 @@
   "description": "a template for gitmoji commit workflow",
   "main": "lib/index.js",
   "scripts": {
-    "release": "semantic-release --no-ci --no-verify"
+    "release": "semantic-release --no-ci --no-verify && node ./scripts/build-version"
   },
   "repository": {
     "type": "git",
